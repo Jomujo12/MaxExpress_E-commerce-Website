@@ -1,0 +1,429 @@
+body{
+    margin: 0;
+}
+
+.header{
+    display:inline-flex;
+    float: none;
+    color:white;
+    background-color:black;
+    position: fixed;
+    right: 0;
+    left:0 ;
+    padding: 5px 5px;
+   
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    
+
+}
+.logo{
+    margin-left: 45px;
+    font-weight: 900;
+    color:orange;
+
+}
+.search_engine{
+    margin-top: 25px;
+    margin-left: 25px;
+    width: 1185px;
+   
+}
+.search_engine input{
+    width: 1000px;
+    border-radius: 20px;
+    height: 30px;
+    text-align: center;
+
+}
+.search_engine i{
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    margin-left: -50px;
+}
+.search_engine button{
+    background-color: black;
+    border: none;
+}
+
+
+.download{
+    margin-top: 25px;
+    margin-left: 1270px;
+    position: absolute;
+}
+.download i{
+    margin-left:-20px ;
+}
+.download p{
+    margin-left:10px;
+    padding: 8px;
+    margin-top:-28px;
+
+}
+.currency{
+    margin-left: 45px;
+    margin-top: 25px;
+}
+.currency p{
+    margin-left:30px;
+    margin-top:-20px;
+
+
+}
+.currency select {
+    margin-left:28px;
+    margin-top:-28px;
+    border: none;
+}
+.user_login{
+    margin-left: 45px;
+    margin-top: 25px;
+}
+.user_login p{
+    margin-left:20px;
+    padding: 8px;
+    margin-top:-28px;
+
+}
+.user_login a {
+    text-decoration: none;
+    color: white;
+}
+.cart{
+    margin-left: 45px;
+    margin-top: 25px;
+    margin-right: 50px;
+}
+.cart p{
+    margin-left:20px;
+    margin-top:-2px;
+}
+.appear{
+    display: none;
+    position: absolute;
+}
+.cart:hover .appear{
+    display: block;
+
+
+}
+.cart button{
+    border-radius: 10px;
+    border: green solid 1px;
+    width: 30px;
+    background-color: black;
+    color: white;
+} 
+
+/* -----------------end of header-------------*/
+
+.categories{
+    display:inline-flex;
+    float: none;
+    background-color: black;
+    padding: 5px 5px;
+    margin-top: 5%;
+    position: fixed;
+    right: 0;
+    left: 0;
+    box-shadow: 0px 3px 20px skyblue;
+}
+.category{
+    margin-left: 80px;
+    margin-top: 13px;
+}
+.menu ul{
+    display: inline-flex; 
+  
+}
+.menu li{
+
+    text-decoration: none;
+    padding-left: 60px;
+    list-style: none;
+  
+}
+.menu li a{
+    text-decoration: none;
+    color:white;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+}
+.menu  a:hover{
+    color: black;
+    background-color: skyblue;
+    box-shadow: 1px 0px 2px 6px skyblue;
+    transition: 1s;
+
+}
+
+
+/*--------------login page----------------*/
+
+.h2{
+
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.login form{
+    margin-left: 40%;
+    margin-top: 4%;
+    background-color: white;
+    width: 500px;
+    height: 820px;
+    box-shadow: 9px 5px 15px 5px black;
+    
+}
+.username{
+    padding-top: 50px;
+    padding-bottom: 0px;
+    display: grid ;
+    margin-left: 50px;
+}
+.username i{
+    margin-top:38px ;
+    position: absolute;
+}
+input{
+    height: 50px;
+    width: 400px;
+    border-bottom: 2px solid gray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-indent: ;
+}
+.password{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    display: grid ;
+    margin-left: 50px;
+}
+.password i{
+    margin-top:38px ;
+    position: absolute;
+}
+a{
+    text-decoration: none;
+}
+.a{
+    margin-left: 340px;
+    text-decoration: none;
+    color: black;
+}
+.a a{
+    color: black;
+}
+.btn{
+    padding-top: 30px;
+    margin-left: 45px;
+
+}
+.btn button{
+    width: 400px;
+    height: 40px;
+    background-color: skyblue;
+    border: none;
+    border-radius: 15px;
+}
+.btn p{
+    padding-top: 30px;
+    padding-left: 150px;
+}
+.social-media{
+    padding-left: 190px;
+    border: none;
+    border-radius: 30px;
+}
+.social-media button{
+    height: 30px;
+    width:35px;
+    border-radius: 15px;
+}
+.end{
+    padding-left: 200px;
+    padding-top: 60px;
+}
+.end a p{
+    margin-left:10px;
+}
+
+/*--------------------end of login----------------------*/
+.trust{
+    box-sizing: border-box;
+    display: inline-flex;
+    margin-top: 10%;
+    padding-left: 70px;
+    box-sizing: border-box;
+    
+}
+.trust p{
+    color: rgb(84, 84, 84);
+}
+.value {
+    margin-left: 20px;
+}
+.value i{
+    margin-left: 40px;
+}
+.shoppers{
+    margin-left:100px ;
+}
+.shoppers i{
+    margin-left: 40px;
+}
+.delivery{
+    margin-left:100px ;
+
+}
+.delivery i{
+    margin-left: 20px;
+}
+.payment{
+    margin-left:100px ;
+}
+.payment i{
+    margin-left: 20px;
+}
+.protection{
+    margin-left:100px ;
+}
+.protection i{
+    margin-left: 40px;
+}
+.app{
+    margin-left:100px ;
+}
+.app i{
+    margin-left: 70px;
+}
+/*---------------------image insertion---------------------*/
+.gallery{
+    box-sizing: border-box;
+    display:grid;
+    grid-template-columns:repeat(8,1fr) ;
+   
+}
+.image{
+    box-shadow: 2px 10px 8px skyblue;
+    margin-bottom: 20px;
+    width:200px;
+    padding: 19px;
+}
+img{
+    width: 200px;
+    height:auto;
+}
+.image{
+    text-align: center;
+}
+.image button{
+    margin-left: 0px;
+    border: 1px skyblue solid;
+    height: 40px;
+    width: 70px;
+    background-color: skyblue;
+
+}
+.image button:hover{
+    background-color: aqua;
+    transition: 2s;
+}
+img{
+   transition: 0.5s;
+
+}
+
+.view{
+    margin-left: 46.3%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.view button{
+    
+    color: black;
+    background-color: skyblue;
+    border: none;
+    height: 40px;
+    width: 160px;
+    border-radius: 20px;
+    text-align: centre;
+}
+/* ----------------------footer--------------------------*/
+footer{
+    box-sizing: border-box;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgb(188, 188, 188);
+    padding:0;
+}
+footer p{
+    color: rgb(53, 53, 53);
+}
+.f1{
+    display: inline-flex;
+    margin-top: 10px;
+}
+.collaboration{
+    margin-left: 50px;
+}
+.customer{
+    margin-left: 50px;
+}
+.Shopping{
+    margin-left: 50px;
+}
+
+.f3{
+    margin-left: 50%;
+    margin-right: 100px;
+    margin-top: -34%;
+    display: inline-flex;
+    position: absolute;
+    padding: 30px;
+}
+.pay{
+    margin-left: -25px;
+}
+.pay i{
+    font-size: 40px;
+    padding-inline: 2px;
+}
+.stay{
+    margin-left: 200px;
+    
+}
+.stay i{
+    font-size: 30px;
+    padding-inline: 2px;
+}
+.help{
+    margin-left: 50px;
+    padding: 10px 0  10px 0;
+}
+.browse{
+    margin-left: 50px;
+}
+.intellectual{
+    
+    border: 1px solid rgb(36, 36, 36);
+    text-align: center;
+    background-color: rgb(6, 6, 6);
+
+}
+.f4{
+    margin-left: 50%;
+    margin-top: -20%;
+    position: absolute;
+}
+
+
